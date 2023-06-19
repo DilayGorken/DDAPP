@@ -1,0 +1,1016 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Error: Test failed for pressing button 1
+Time: 30 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 50 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 70 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 90 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 120 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 130 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 160 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 180 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 200 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 220 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 250 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 260 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 290 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 310 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 330 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 350 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 380 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 390 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 420 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 440 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 460 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 480 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 510 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 520 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 550 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 570 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 590 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 610 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 640 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 650 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 680 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 700 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 720 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 740 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 770 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 780 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 810 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 830 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 850 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 870 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 900 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 910 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 940 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 960 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 980 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 1 us  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 1030 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 1040 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 1070 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 1090 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 1110 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 1130 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 1160 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 1170 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 1200 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 1220 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 1240 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 1260 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 1290 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 1300 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 1330 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 1350 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 1370 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 1390 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 1420 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 1430 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 1460 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 1480 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 1500 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 1520 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 1550 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 1560 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 1590 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 1610 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 1630 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 1650 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 1680 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 1690 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 1720 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 1740 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 1760 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 1780 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 1810 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 1820 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 1850 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 1870 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 1890 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 1910 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 1940 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 1950 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 1980 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 2 us  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 2020 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 2040 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 2070 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 2080 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 2110 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 2130 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 2150 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 2170 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 2200 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 2210 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 2240 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 2260 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 2280 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 2300 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 2330 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 2340 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 2370 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 2390 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 2410 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 2430 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 2460 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 2470 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 2500 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 2520 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 2540 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 2560 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 2590 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 2600 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 2630 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 2650 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 2670 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 2690 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 2720 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 2730 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 2760 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 2780 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 2800 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 2820 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 2850 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 2860 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 2890 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 2910 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 2930 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 2950 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 2980 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 2990 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 3020 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 3040 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 3060 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 3080 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 3110 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 3120 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 3150 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 3170 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 3190 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 3210 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 3240 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 3250 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 3280 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 3300 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 3320 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 3340 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 3370 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 3380 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 3410 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 3430 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 3450 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 3470 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 3500 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 3510 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 3540 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 3560 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 3580 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 3600 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 3630 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 3640 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 3670 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 3690 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 3710 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 3730 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 3760 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 3770 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 3800 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 3820 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 3840 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 3860 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 3890 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 3900 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 3930 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 3950 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 3970 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 3990 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 4020 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 4030 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 4060 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 4080 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 4100 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 4120 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 4150 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 4160 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 4190 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 4210 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 4230 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 4250 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 4280 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 4290 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 4320 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 4340 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 4360 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 4380 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 4410 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 4420 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 4450 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 4470 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 4490 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 4510 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 4540 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 4550 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 4580 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 4600 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 4620 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 4640 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 4670 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 4680 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 4710 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 4730 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 4750 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 4770 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 4800 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 4810 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 4840 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 4860 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 4880 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 4900 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 4930 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 4940 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 4970 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 4990 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 5010 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 5030 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 5060 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 5070 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 5100 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 5120 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 5140 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 5160 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 5190 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 5200 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 5230 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 5250 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 5270 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 5290 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 5320 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 5330 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 5360 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 5380 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 5400 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 5420 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 5450 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 5460 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 5490 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 5510 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 5530 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 5550 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 5580 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 5590 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 5620 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 5640 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 5660 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 5680 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 5710 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 5720 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 5750 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 5770 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 5790 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 5810 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 5840 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 5850 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 5880 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 5900 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 5920 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 5940 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 5970 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 5980 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 6010 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 6030 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 6050 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 6070 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 6100 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 6110 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 6140 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 6160 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 6180 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 6200 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 6230 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 6240 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 6270 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 6290 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 6310 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 6330 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 6360 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 6370 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 6400 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 6420 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 6440 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 6460 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 6490 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 6500 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 6530 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 6550 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 6570 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 6590 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 6620 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 6630 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 6660 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 6680 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 6700 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 6720 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 6750 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 6760 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 6790 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 6810 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 6830 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 6850 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 6880 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 6890 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 6920 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 6940 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 6960 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 6980 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 7010 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 7020 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 7050 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 7070 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 7090 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 7110 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 7140 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 7150 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 7180 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 7200 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 7220 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 7240 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 7270 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 7280 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 7310 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 7330 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 7350 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 7370 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 7400 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 7410 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 7440 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 7460 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 7480 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 7500 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 7530 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 7540 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 7570 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 7590 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 7610 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 7630 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 7660 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 7670 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 7700 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 7720 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 7740 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 7760 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 7790 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 7800 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 7830 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 7850 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 7870 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 7890 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 7920 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 7930 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 7960 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 7980 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 8 us  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 8020 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 8050 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 8060 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 8090 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 8110 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 8130 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 8150 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 8180 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 8190 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 8220 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 8240 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 8260 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 8280 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 8310 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 8320 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 8350 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 8370 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 8390 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 8410 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 8440 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 8450 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 8480 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 8500 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 8520 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 8540 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 8570 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 8580 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 8610 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 8630 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 8650 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 8670 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 8700 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 8710 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 8740 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 8760 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 8780 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 8800 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 8830 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 8840 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 8870 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 8890 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 8910 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 8930 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 8960 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 8970 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 9 us  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 9020 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 9040 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 9060 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 9090 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 9100 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 9130 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 9150 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 9170 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 9190 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 9220 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 9230 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 9260 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 9280 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 9300 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 9320 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 9350 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 9360 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 9390 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 9410 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 9430 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 9450 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 9480 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 9490 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 9520 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 9540 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 9560 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 9580 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 9610 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 9620 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 9650 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 9670 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 9690 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 9710 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 9740 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 9750 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 9780 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 9800 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 9820 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 9840 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 9870 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 9880 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 9910 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 9930 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 9950 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 9970 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 10 us  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 10010 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 10040 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 10060 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 10080 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 10100 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 10130 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 10140 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 10170 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 10190 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 10210 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 10230 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 10260 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 10270 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 10300 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 10320 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 10340 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 10360 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 10390 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 10400 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 10430 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 10450 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 10470 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 10490 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 10520 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 10530 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 10560 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 10580 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 10600 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 10620 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 10650 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 10660 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 10690 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 10710 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 10730 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 10750 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 10780 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 10790 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 10820 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 10840 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 10860 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 4
+Time: 10880 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button A
+Time: 10910 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Note: All tests passed
+Time: 10920 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 1
+Time: 10950 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 2
+Time: 10970 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
+Error: Test failed for pressing button 3
+Time: 10990 ns  Iteration: 0  Process: /keypad_main_tb/line__39  File: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/TusTakimi/TusTakimi.srcs/sim_1/new/keypad_tb.vhd
