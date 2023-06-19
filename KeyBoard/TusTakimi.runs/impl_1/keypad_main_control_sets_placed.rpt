@@ -1,0 +1,58 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Sat Oct 10 15:44:19 2015
+| Host         : Arge running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file keypad_main_control_sets_placed.rpt
+| Design       : keypad_main
+| Device       : xc7a35t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |     5 |
+| Minimum Number of register sites lost to control set restrictions |    18 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               1 |            1 |
+| No           | No                    | Yes                    |              38 |            9 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              15 |            4 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------+----------------------------+---------------------+------------------+----------------+
+|   Clock Signal   |        Enable Signal       |   Set/Reset Signal  | Slice Load Count | Bel Load Count |
++------------------+----------------------------+---------------------+------------------+----------------+
+|  clock_IBUF_BUFG |                            |                     |                1 |              1 |
+|  clock_IBUF_BUFG | satir_data_temiz0          | sutun_en[3]_i_2_n_0 |                2 |              4 |
+|  clock_IBUF_BUFG | okunan_karakter[3]_i_1_n_0 | sutun_en[3]_i_2_n_0 |                1 |              4 |
+|  clock_IBUF_BUFG | p_1_in                     | sutun_en[3]_i_2_n_0 |                1 |              7 |
+|  clock_IBUF_BUFG |                            | sutun_en[3]_i_2_n_0 |                9 |             38 |
++------------------+----------------------------+---------------------+------------------+----------------+
+
+

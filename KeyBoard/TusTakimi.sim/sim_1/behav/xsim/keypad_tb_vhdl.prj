@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../TusTakimi.srcs/sim_1/new/keypad_tb.vhd" \
+"../../../../TusTakimi.srcs/sources_1/new/tus_tekimi.vhd" \
+
+# Do not sort compile order
+nosort
