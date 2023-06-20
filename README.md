@@ -38,13 +38,11 @@ bulunmaktadır. Bu proje aynı zamanda dış kaynaktan alınan ".bit " dosyasın
 
 ## Kullanım
 
-Projeyi nasıl kullanacağınızı bu bölümde açıklayabilirsiniz. Komut satırı argümanları, yapılandırma seçenekleri veya diğer kullanım senaryoları hakkında talimatlar verebilirsiniz.
+
 
 ## Katkıda Bulunma
 
-Bu bölümde projeye katkıda bulunma sürecini açıklayabilirsiniz. Nasıl katkıda bulunabileceklerini, kodun nasıl test edileceğini ve değişikliklerin nasıl gönderileceğini belirtebilirsiniz. Ayrıca bağlantılar veya kılavuzlar sağlayarak yeni katılımcıların projeye katkıda bulunmasını kolaylaştırabilirsiniz.
 
-## Lisans
 
-Projeyi hangi lisans altında yayınladığınızı burada belirtebilirsiniz. Lisansın tam metnini bir dosyaya bağlantı olarak ekleyebilir veya burada açıklayabilirsiniz.
+
 
