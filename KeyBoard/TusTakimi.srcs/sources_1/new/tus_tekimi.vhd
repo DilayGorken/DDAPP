@@ -31,14 +31,13 @@ signal counter:unsigned(26 downto 0);
 
 signal hata : std_logic;
 
+--burada tanımlanan sinyaller bir gürültü engelleme sistemi olarak tasarlanmıştır.
 signal satir_data_buf  : std_logic_vector(3 downto 0);
 signal satir_data_buf2  : std_logic_vector(3 downto 0);
 signal satir_data_buf3  : std_logic_vector(3 downto 0);
 signal satir_data_buf4  : std_logic_vector(3 downto 0);
 signal satir_data_temiz : std_logic_vector(3 downto 0);
 begin
-
-
 
 
 PROCESS(rst,clock)
@@ -48,7 +47,8 @@ BEGIN
 
 
 
---anotlar�n taranmas�
+--anotlarin taranmasi--
+	--rst=0 iken tü bileşneler 0'lanır.
 if rst='0' then
 	counter<=(OTHERS=>'0');
 	okunan_karakter     <=(OTHERS=>'0');
@@ -62,7 +62,9 @@ if rst='0' then
 	satir_data_buf4	<=(OTHERS=>'0');	
 	satir_data_temiz	<=(OTHERS=>'0');		
 elsif rising_edge(clock) then
-
+	
+--burada bit atlatarak bir gürültü engelleme sistemi kurulmuştur.
+-- bu sistem, tüm sistemin performansı için tasarlanmıştır.
    counter<=counter+1;
 	satir_data_buf	   <= satir_data;
 	satir_data_buf2    <=satir_data_buf;	
@@ -73,10 +75,19 @@ elsif rising_edge(clock) then
 	if (satir_data_buf4 = satir_data_buf3 and satir_data_buf4=satir_data_buf2 and satir_data_buf4=satir_data_buf  and satir_data_buf4=satir_data ) then
 		satir_data_temiz<=satir_data_buf4;
 	end if;
-
+-- burada counter'IN 14-15-16. bitlerinin kullanımı, bir sistem gecikmesi yaratmaktadır.
+ --counter devamlı değişeceğinden  sütun seçimi de counterla beraber devamlı değişir
+-- bu değişim de basılan tuşun bulunduğu sütunu anlık olarak yakalamamızı sağlamakatadır.
+-- sütun taraması ile yukarıda kullandığımız gürültü engelleme sistemi birlikte çalışır
+--bu organizasyon belirlenen sütundaki hangi satırın basıldığı ölçmeye dayalıdır.
+-- bu ölçüm de tamamlandığında tanımlanan değer "okunan_karakter" sinyaline atanır.
 case (std_logic_vector'(counter(16),counter(15), counter(14))) is
 when"000" => 
+     
 	sutun_en<="0001";--sutun1
+      --sütun 1 de bulanan karakterler: 1,4,7,*.
+      -- sütun belirli olduğundan sonraki belirleme hangi satıra basıldığıdır.
+      
 	case(satir_data_temiz) is
 	when"0001" => hata<='0'    ;okunan_karakter<="0001";--1
 	when"0010" => hata<='0'    ;okunan_karakter<="0100";--4
@@ -123,7 +134,9 @@ end case;
 
 
 
-
+-- segmente bastırma işlemi--
+-- tek bir anot kullanıldığından anot seçimi yapılmaz
+-- "okunan_karakter" sinyalinden gelen bilgi "led" e aktarılır.
 anot<="0111" ;--anot0 aktif
 
 if hata='0' then
