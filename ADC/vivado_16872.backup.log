@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jun 13 11:58:54 2023
+# Process ID: 16872
+# Current directory: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/ADC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23608 D:\vivadoprojectsNEW\vivadoprojectslast\DDAPP\uygulama kodlar emranin hali\ADC\ADC.xpr
+# Log file: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/ADC/vivado.log
+# Journal file: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/ADC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/ADC/ADC.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/ADC' since last save.
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/ADC/ADC.ip_user_files', nor could it be found using path 'C:/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/ADC/ADC.ip_user_files'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1114.340 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 13 15:43:59 2023...

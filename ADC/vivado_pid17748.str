@@ -1,0 +1,190 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 17748
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Fri Jul 07 15:54:49 EET 2023
+Time zone: 	Eastern European Time (Asia/Istanbul)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	D:/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	D:/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	dilay
+User home directory: C:/Users/dilay
+User working directory: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/ADC
+User country: 	TR
+User language: 	tr
+User locale: 	tr_TR
+
+RDI_BASEROOT: D:/Vivado
+HDI_APPROOT: D:/Vivado/2020.2
+RDI_DATADIR: D:/Vivado/2020.2/data
+RDI_BINDIR: D:/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/dilay/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/dilay/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/dilay/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	D:/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/ADC/vivado.log
+Vivado journal file location: 	D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/ADC/vivado.jou
+Engine tmp dir: 	D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/ADC/.Xil/Vivado-17748-Dilay
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: D:/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: D:/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: D:/Vivado/2020.2
+XILINX_SDK: D:/Vitis/2020.2
+XILINX_VITIS: D:/Vitis/2020.2
+XILINX_VIVADO: D:/Vivado/2020.2
+XILINX_VIVADO_HLS: D:/Vivado/2020.2
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,063 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 73 MB (+74425kb) [00:00:08]
+// [Engine Memory]: 1,063 MB (+963115kb) [00:00:08]
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: D:\vivadoprojectsNEW\vivadoprojectslast\DDAPP\uygulama kodlar emranin hali\ADC\ADC.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/ADC/ADC.xpr} 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,063 MB. GUI used memory: 52 MB. Current time: 7/7/23, 3:54:50 PM EET
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/ADC/ADC.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 84 MB (+7213kb) [00:00:17]
+// [GUI Memory]: 104 MB (+17072kb) [00:00:18]
+// WARNING: HEventQueue.dispatchEvent() is taking  3340 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2020.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1097.328 ; gain = 0.000 
+// Project name: ADC; location: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/ADC; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 113 MB (+3471kb) [00:00:24]
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (adc.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, adc(Behavioral) (adc.vhd)]", 1, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, adc(Behavioral) (adc.vhd)]", 1, false); // D
+// [GUI Memory]: 122 MB (+3788kb) [00:00:26]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, adc(Behavioral) (adc.vhd)]", 1, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 22 seconds
+selectCodeEditor("adc.vhd", 249, 403); // bP
+selectCodeEditor("adc.vhd", 248, 320); // bP
+// [GUI Memory]: 138 MB (+10478kb) [00:01:27]
+// Elapsed time: 520 seconds
+selectCodeEditor("adc.vhd", 703, 193); // bP
+selectCodeEditor("adc.vhd", 599, 227); // bP
+selectCodeEditor("adc.vhd", 593, 314); // bP
+// Elapsed time: 300 seconds
+selectCodeEditor("adc.vhd", 694, 294); // bP
+// Elapsed time: 17 seconds
+selectCodeEditor("adc.vhd", 388, 226); // bP
+// Elapsed time: 15 seconds
+selectCodeEditor("adc.vhd", 344, 265); // bP
+selectCodeEditor("adc.vhd", 370, 246); // bP
+// Elapsed time: 23 seconds
+selectCodeEditor("adc.vhd", 194, 377); // bP
+selectCodeEditor("adc.vhd", 170, 428); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("adc.vhd", 207, 211); // bP
+// Elapsed time: 131 seconds
+selectCodeEditor("adc.vhd", 195, 315); // bP
+// [GUI Memory]: 146 MB (+1054kb) [00:18:15]
+// Elapsed time: 18 seconds
+selectCodeEditor("adc.vhd", 1016, 327); // bP
+typeControlKey(null, null, 'z');
+selectCodeEditor("adc.vhd", 960, 315); // bP
+selectCodeEditor("adc.vhd", 194, 317); // bP
+// Elapsed time: 32 seconds
+selectCodeEditor("adc.vhd", 81, 334); // bP
+// Elapsed time: 45 seconds
+selectCodeEditor("adc.vhd", 485, 354); // bP
+// Elapsed time: 16 seconds
+selectCodeEditor("adc.vhd", 530, 349); // bP
+selectCodeEditor("adc.vhd", 571, 356); // bP
+selectCodeEditor("adc.vhd", 183, 356); // bP
+selectCodeEditor("adc.vhd", 524, 352); // bP
+selectCodeEditor("adc.vhd", 503, 357); // bP
+selectCodeEditor("adc.vhd", 515, 350); // bP
+// Elapsed time: 11 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // ac
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ah
+selectMenuItem(PAResourceCommand.PACommandNames_CLOSE_PROJECT, "Close Project"); // ak
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// am (cr): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// bz (cr):  Save Constraints : addNotify
+// A (cr): Close Project: addNotify
+dismissDialog("Save Project"); // am
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// bz (cr):  Close Project : addNotify
+// TclEventType: PROJECT_CLOSE
+dismissDialog("Close Project"); // A
+// HMemoryUtils.trashcanNow. Engine heap size: 1,063 MB. GUI used memory: 83 MB. Current time: 7/7/23, 4:15:21 PM EET
+// Tcl Message: close_project 
+// 'b' command handler elapsed time: 3 seconds
+dismissDialog("Close Project"); // bz
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/ADC/ADC.xpr", 0, false, false, false, true, false); // r - Popup Trigger
+// WARNING: HEventQueue.dispatchEvent() is taking  1002 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
