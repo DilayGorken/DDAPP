@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------
--- Company: BETÝ BÝLÝÞÝM
+-- Company: Beti Elektronik
 -- Engineer: 
 
 -- Module Name:    STEPPER_MOTOR - Behavioral 
@@ -40,25 +40,25 @@ variable counter_v:unsigned(1 downto 0);
 
 begin
 
-if rising_edge (CLOCK) then   --eðer clock sinyali 0'dan 1'e geçiyorsa
-counter := counter+1;         --counter'ýn deðerini 1 artýrýr.
+if rising_edge (CLOCK) then   --eÃ°er clock sinyali 0'dan 1'e geÃ§iyorsa
+counter := counter+1;         --counter'Ã½n deÃ°erini 1 artÃ½rÃ½r.
 end if;
-A<=counter(17);           --Hýzlý clock olarak A sinyalini atar.
-C<=counter(19);           --YAVAÞ clock olarak A sinyalini atar.
+A<=counter(17);           --HÃ½zlÃ½ clock olarak A sinyalini atar.
+C<=counter(19);           --YAVAÃž clock olarak A sinyalini atar.
 
-if HIZLANDIR='1' then        --eðer hýzlandýrma anahtarý açýksa,
-B<=A;                    	   --hýzlý clock aktif olur(A sinyali), 
+if HIZLANDIR='1' then        --eÃ°er hÃ½zlandÃ½rma anahtarÃ½ aÃ§Ã½ksa,
+B<=A;                    	   --hÃ½zlÃ½ clock aktif olur(A sinyali), 
 elsif HIZLANDIR='0' THEN      -- yoksa normal clock aktif olur.       
 B<=C;
 END IF;
 
 
 if rising_edge (B) AND STOP='0' then  --Normal clock sinyali 0'dan 1'e 
-counter_v:= counter_v+1;          	  -- geçiyorsa counter_v 1 artar.
+counter_v:= counter_v+1;          	  -- geÃ§iyorsa counter_v 1 artar.
 end if;
 
-IF DONDUR='0' THEN         --Donurme anahtarýnýn durumuna gore 
-CASE (COUNTER_V) IS        --motorun hangi yonde döneceði belli olur.
+IF DONDUR='0' THEN         --Donurme anahtarÃ½nÃ½n durumuna gore 
+CASE (COUNTER_V) IS        --motorun hangi yonde dÃ¶neceÃ°i belli olur.
 WHEN"00"=> BOBIN<="1001";
 WHEN"01"=> BOBIN<="1010";
 WHEN"10"=> BOBIN<="0110";
