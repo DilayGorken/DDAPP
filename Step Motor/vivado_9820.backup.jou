@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Sep  2 16:02:22 2019
+# Process ID: 9820
+# Current directory: C:/Users/ARGE2/Desktop/ddApp-10 FPGA UygulamalariSeti/Uygulama Kodlar/AdimMotoru
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1316 C:\Users\ARGE2\Desktop\ddApp-10 FPGA UygulamalariSeti\Uygulama Kodlar\AdimMotoru\AdimMotoru.xpr
+# Log file: C:/Users/ARGE2/Desktop/ddApp-10 FPGA UygulamalariSeti/Uygulama Kodlar/AdimMotoru/vivado.log
+# Journal file: C:/Users/ARGE2/Desktop/ddApp-10 FPGA UygulamalariSeti/Uygulama Kodlar/AdimMotoru\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ARGE2/Desktop/ddApp-10 FPGA UygulamalariSeti/Uygulama Kodlar/AdimMotoru/AdimMotoru.xpr}
+update_compile_order -fileset sources_1

@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Apr  3 11:17:28 2023
+# Process ID: 16980
+# Current directory: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/AdimMotoru
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5976 C:\Users\dilay\OneDrive\Masaüstü\DDAPP\uygulama kodlar emranin hali\AdimMotoru\AdimMotoru.xpr
+# Log file: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/AdimMotoru/vivado.log
+# Journal file: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/AdimMotoru\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/AdimMotoru/AdimMotoru.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/ARGE2/Desktop/ddApp-10 FPGA UygulamalariSeti/Uygulama Kodlar/AdimMotoru' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'AdimMotoru.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1117.977 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 04 2020-00:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1117.977 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B163E1A
+set_property PROGRAM.FILE {C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/AdimMotoru/AdimMotoru.runs/impl_1/STEPPER_MOTOR.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B163E1A
+close_hw_manager
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr  3 14:26:58 2023...

@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Apr  3 11:17:28 2023
+# Process ID: 16980
+# Current directory: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/AdimMotoru
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5976 C:\Users\dilay\OneDrive\Masaüstü\DDAPP\uygulama kodlar emranin hali\AdimMotoru\AdimMotoru.xpr
+# Log file: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/AdimMotoru/vivado.log
+# Journal file: C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/AdimMotoru\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/AdimMotoru/AdimMotoru.xpr}
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/dilay/OneDrive/Masaüstü/DDAPP/uygulama kodlar emranin hali/AdimMotoru/AdimMotoru.runs/impl_1/STEPPER_MOTOR.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_manager
