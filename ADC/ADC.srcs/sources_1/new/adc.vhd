@@ -80,26 +80,26 @@ begin
 
 
 integer_value_of_alinan_data:=to_integer(alinan_data);
-    --to_integer fonksiyonu kullanılarak alinan_data değeri tamsayı formuna dönüştürülür ve integer_value_of_alinan_data değişkenine atanır. 
-    --Bu adım, ADC'den gelen sayısal değeri işlemek için daha uygun bir formata dönüştürmek içindir.
+    --to_integer fonksiyonu kullanÄ±larak alinan_data deÄŸeri tamsayÄ± formuna dÃ¶nÃ¼ÅŸtÃ¼rÃ¼lÃ¼r ve integer_value_of_alinan_data deÄŸiÅŸkenine atanÄ±r. 
+    --Bu adÄ±m, ADC'den gelen sayÄ±sal deÄŸeri iÅŸlemek iÃ§in daha uygun bir formata dÃ¶nÃ¼ÅŸtÃ¼rmek iÃ§indir.
 integer_value_of_cikis_data:=((integer_value_of_alinan_data*500)/256);
 
 
-rb5:=to_unsigned(integer_value_of_cikis_data,12);
+rb5:=to_unsigned(integer_value_of_cikis_data,12);--integer_value_of_cikis_data deÄŸeri 12 bitlik bir unsigned sinyale dÃ¶nÃ¼ÅŸtÃ¼rÃ¼lÃ¼r.
 
-    --Daha sonra integer_value_of_alinan_data değeri ile bir hesaplama yapılır. Bu hesaplama, gelen tamsayı değerini 500 ile çarpar ve sonucu 256'ya böler. 
-    --İşlemin sonucu, integer_value_of_cikis_data değişkenine atanır.
-    --Bu hesaplama, ADC'den okunan sayısal değeri gerilim değerine dönüştürmek için kullanılır. 
-    --Burada, ADC'nin örnekleme yaptığı analog sinyalin gerilim aralığı belirli bir referans gerilime bağlıdır. 
-    --integer_value_of_alinan_data değeri, ADC'nin ölçtüğü gerilimi temsil eder. Bu değeri 500 ile çarpmak, referans gerilim değerini elde etmek için kullanılır. 
-    --Son olarak, çıkan sonucu 256'ya bölmek, ADC'nin 8 bit çözünürlüğünü ve ölçülen gerilimin dijital temsilini dikkate alır. 
-    --Böylece, ADC'den alınan sayısal değeri gerçek gerilim değerine dönüştürmüş oluruz.
+    --Daha sonra integer_value_of_alinan_data deÄŸeri ile bir hesaplama yapÄ±lÄ±r. Bu hesaplama, gelen tamsayÄ± deÄŸerini 500 ile Ã§arpar ve sonucu 256'ya bÃ¶ler. 
+    --Ä°ÅŸlemin sonucu, integer_value_of_cikis_data deÄŸiÅŸkenine atanÄ±r.
+    --Bu hesaplama, ADC'den okunan sayÄ±sal deÄŸeri gerilim deÄŸerine dÃ¶nÃ¼ÅŸtÃ¼rmek iÃ§in kullanÄ±lÄ±r. 
+    --Burada, ADC'nin Ã¶rnekleme yaptÄ±ÄŸÄ± analog sinyalin gerilim aralÄ±ÄŸÄ± belirli bir referans gerilime baÄŸlÄ±dÄ±r. 
+    --integer_value_of_alinan_data deÄŸeri, ADC'nin Ã¶lÃ§tÃ¼ÄŸÃ¼ gerilimi temsil eder. Bu deÄŸeri 500 ile Ã§arpmak, referans gerilim deÄŸerini elde etmek iÃ§in kullanÄ±lÄ±r. 
+    --Son olarak, Ã§Ä±kan sonucu 256'ya bÃ¶lmek, ADC'nin 8 bit Ã§Ã¶zÃ¼nÃ¼rlÃ¼ÄŸÃ¼nÃ¼ ve Ã¶lÃ§Ã¼len gerilimin dijital temsilini dikkate alÄ±r. 
+    --BÃ¶ylece, ADC'den alÄ±nan sayÄ±sal deÄŸeri gerÃ§ek gerilim deÄŸerine dÃ¶nÃ¼ÅŸtÃ¼rmÃ¼ÅŸ oluruz.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
                         ----------------------------------------------BCD CONVERTER-----------------------------------------------
 -- converter genel capiyle bir dgistirme islemi yapar.
--- rb5 e gelen değer her clock ve adc sinyalinin degisimi ile degismektedir.
+-- rb5 e gelen deÄŸer her clock ve adc sinyalinin degisimi ile degismektedir.
 
 
 
@@ -281,27 +281,27 @@ end if;
                             ---adc den okunan deger burada yer aliyor----                                   ---------V-------O-------L-------T-----  
     
 
-                            --("0011" & rb3(11 downto 8)): Bu ifade, rb3 adlı unsigned sinyalinin 11. bitinden 8. bitine kadar olan kısmını alır ve
-                            -- önüne "0011" ekleyerek 8 bitlik bir unsigned değer elde eder. Bu değer, mesaj dizisinin ilk elemanına atanır.
+                            --("0011" & rb3(11 downto 8)): Bu ifade, rb3 adlÄ± unsigned sinyalinin 11. bitinden 8. bitine kadar olan kÄ±smÄ±nÄ± alÄ±r ve
+                            -- Ã¶nÃ¼ne "0011" ekleyerek 8 bitlik bir unsigned deÄŸer elde eder. Bu deÄŸer, mesaj dizisinin ilk elemanÄ±na atanÄ±r.
 
-                            --(X"2E"): Bu ifade, 8 bitlik bir unsigned değeri temsil eder. X"2E" ifadesi, hexadecimal formatta 2E değerini temsil eder. 
-                            --Bu değer, mesaj dizisinin ikinci elemanına atanır.
+                            --(X"2E"): Bu ifade, 8 bitlik bir unsigned deÄŸeri temsil eder. X"2E" ifadesi, hexadecimal formatta 2E deÄŸerini temsil eder. 
+                            --Bu deÄŸer, mesaj dizisinin ikinci elemanÄ±na atanÄ±r.
 
-                            --("0011" & rb3(7 downto 4)): Bu ifade, rb3 adlı unsigned sinyalinin 7. bitinden 4. bitine kadar olan kısmını alır ve
-                            -- önüne "0011" ekleyerek 8 bitlik bir unsigned değer elde eder. Bu değer, mesaj dizisinin üçüncü elemanına atanır.
+                            --("0011" & rb3(7 downto 4)): Bu ifade, rb3 adlÄ± unsigned sinyalinin 7. bitinden 4. bitine kadar olan kÄ±smÄ±nÄ± alÄ±r ve
+                            -- Ã¶nÃ¼ne "0011" ekleyerek 8 bitlik bir unsigned deÄŸer elde eder. Bu deÄŸer, mesaj dizisinin Ã¼Ã§Ã¼ncÃ¼ elemanÄ±na atanÄ±r.
 
-                            --("0011" & rb3(3 downto 0)): Bu ifade, rb3 adlı unsigned sinyalinin 3. bitinden 0. bitine kadar olan kısmını alır ve 
-                            --önüne "0011" ekleyerek 8 bitlik bir unsigned değer elde eder. Bu değer, mesaj dizisinin dördüncü elemanına atanır.
+                            --("0011" & rb3(3 downto 0)): Bu ifade, rb3 adlÄ± unsigned sinyalinin 3. bitinden 0. bitine kadar olan kÄ±smÄ±nÄ± alÄ±r ve 
+                            --Ã¶nÃ¼ne "0011" ekleyerek 8 bitlik bir unsigned deÄŸer elde eder. Bu deÄŸer, mesaj dizisinin dÃ¶rdÃ¼ncÃ¼ elemanÄ±na atanÄ±r.
 
-                            --(X"10"), (X"56"), (X"4F"), (X"4C"), (X"54"): Bu ifadeler, sırasıyla 8 bitlik unsigned değerler temsil eder. 
-                            --X"10" ifadesi 10 değerini, X"56" ifadesi 56 değerini, X"4F" ifadesi 4F değerini, X"4C" ifadesi 4C değerini, X"54" ifadesi ise 54 değerini temsil eder.
-                            -- Bu değerler, sırasıyla mesaj dizisinin beşinci, altıncı, yedinci, sekizinci ve dokuzuncu elemanlarına atanır.
+                            --(X"10"), (X"56"), (X"4F"), (X"4C"), (X"54"): Bu ifadeler, sÄ±rasÄ±yla 8 bitlik unsigned deÄŸerler temsil eder. 
+                            --X"10" ifadesi 10 deÄŸerini, X"56" ifadesi 56 deÄŸerini, X"4F" ifadesi 4F deÄŸerini, X"4C" ifadesi 4C deÄŸerini, X"54" ifadesi ise 54 deÄŸerini temsil eder.
+                            -- Bu deÄŸerler, sÄ±rasÄ±yla mesaj dizisinin beÅŸinci, altÄ±ncÄ±, yedinci, sekizinci ve dokuzuncu elemanlarÄ±na atanÄ±r.
     
 
 
     -----------------------------------------------------LCD kontrol kismi------------------------------------------------------
-    --LCD Controller bloğu; LCD controller deneyinde detaylı olarak açıklanmıştır.
-    -- Kodun bu kısmıyla sıkıntı yaşarsanız lütfen öncelikle LCD controller deneyi ile çalışınız.
+    --LCD Controller bloÄŸu; LCD controller deneyinde detaylÄ± olarak aÃ§Ä±klanmÄ±ÅŸtÄ±r.
+    -- Kodun bu kÄ±smÄ±yla sÄ±kÄ±ntÄ± yaÅŸarsanÄ±z lÃ¼tfen Ã¶ncelikle LCD controller deneyi ile Ã§alÄ±ÅŸÄ±nÄ±z.
       
         if(rising_edge(clk))    then
             sayac:=sayac+1;
