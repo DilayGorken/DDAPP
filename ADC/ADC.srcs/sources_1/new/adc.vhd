@@ -1,8 +1,8 @@
 ----------------------------------------------------------------------------------
--- Company: 
+-- Company:     Beti Elektronik
 -- Engineer: 
 -- 
--- Create Date: 13.04.2019 14:37:02
+-- Create Date: 
 -- Design Name: 
 -- Module Name: adc - Behavioral
 -- Project Name: 
@@ -44,7 +44,7 @@ architecture Behavioral of adc is
 
 signal  lcd  :  unsigned(6 downto 0):="1111111";
 
-type tip_mesaj is array (0 to 8) of unsigned(7 downto 0);
+type tip_mesaj is array (0 to 8) of unsigned(7 downto 0); --
 signal mesaj : tip_mesaj:=(others=>"00000000");
 constant V_REF : integer := 500; --adc devresinin besleme voltajinin 100 kati
 
@@ -80,12 +80,28 @@ begin
 
 
 integer_value_of_alinan_data:=to_integer(alinan_data);
+    --to_integer fonksiyonu kullanýlarak alinan_data deðeri tamsayý formuna dönüþtürülür ve integer_value_of_alinan_data deðiþkenine atanýr. 
+    --Bu adým, ADC'den gelen sayýsal deðeri iþlemek için daha uygun bir formata dönüþtürmek içindir.
 integer_value_of_cikis_data:=((integer_value_of_alinan_data*500)/256);
 
 
 rb5:=to_unsigned(integer_value_of_cikis_data,12);
 
------bcd converter-----
+    --Daha sonra integer_value_of_alinan_data deðeri ile bir hesaplama yapýlýr. Bu hesaplama, gelen tamsayý deðerini 500 ile çarpar ve sonucu 256'ya böler. 
+    --Ýþlemin sonucu, integer_value_of_cikis_data deðiþkenine atanýr.
+    --Bu hesaplama, ADC'den okunan sayýsal deðeri gerilim deðerine dönüþtürmek için kullanýlýr. 
+    --Burada, ADC'nin örnekleme yaptýðý analog sinyalin gerilim aralýðý belirli bir referans gerilime baðlýdýr. 
+    --integer_value_of_alinan_data deðeri, ADC'nin ölçtüðü gerilimi temsil eder. Bu deðeri 500 ile çarpmak, referans gerilim deðerini elde etmek için kullanýlýr. 
+    --Son olarak, çýkan sonucu 256'ya bölmek, ADC'nin 8 bit çözünürlüðünü ve ölçülen gerilimin dijital temsilini dikkate alýr. 
+    --Böylece, ADC'den alýnan sayýsal deðeri gerçek gerilim deðerine dönüþtürmüþ oluruz.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+                        ----------------------------------------------BCD CONVERTER-----------------------------------------------
+-- converter genel capiyle bir dgistirme islemi yapar.
+-- rb5 e gelen deðer her clock ve adc sinyalinin degisimi ile degismektedir.
+
+
 
 if rb5<"000000001010" then
 rb3:=rb5;
@@ -264,14 +280,37 @@ end if;
     mesaj (0 to 8)<= (("0011"&rb3(11 downto 8)),(X"2E"),("0011"&rb3(7 downto 4)),("0011"&rb3(3 downto 0)),(X"10"),(X"56"),(X"4f"),(X"4c"),(X"54"));                      
                             ---adc den okunan deger burada yer aliyor----                                   ---------V-------O-------L-------T-----  
     
-      
-    ----LCD kontrol kismi----
+
+                            --("0011" & rb3(11 downto 8)): Bu ifade, rb3 adlý unsigned sinyalinin 11. bitinden 8. bitine kadar olan kýsmýný alýr ve
+                            -- önüne "0011" ekleyerek 8 bitlik bir unsigned deðer elde eder. Bu deðer, mesaj dizisinin ilk elemanýna atanýr.
+
+                            --(X"2E"): Bu ifade, 8 bitlik bir unsigned deðeri temsil eder. X"2E" ifadesi, hexadecimal formatta 2E deðerini temsil eder. 
+                            --Bu deðer, mesaj dizisinin ikinci elemanýna atanýr.
+
+                            --("0011" & rb3(7 downto 4)): Bu ifade, rb3 adlý unsigned sinyalinin 7. bitinden 4. bitine kadar olan kýsmýný alýr ve
+                            -- önüne "0011" ekleyerek 8 bitlik bir unsigned deðer elde eder. Bu deðer, mesaj dizisinin üçüncü elemanýna atanýr.
+
+                            --("0011" & rb3(3 downto 0)): Bu ifade, rb3 adlý unsigned sinyalinin 3. bitinden 0. bitine kadar olan kýsmýný alýr ve 
+                            --önüne "0011" ekleyerek 8 bitlik bir unsigned deðer elde eder. Bu deðer, mesaj dizisinin dördüncü elemanýna atanýr.
+
+                            --(X"10"), (X"56"), (X"4F"), (X"4C"), (X"54"): Bu ifadeler, sýrasýyla 8 bitlik unsigned deðerler temsil eder. 
+                            --X"10" ifadesi 10 deðerini, X"56" ifadesi 56 deðerini, X"4F" ifadesi 4F deðerini, X"4C" ifadesi 4C deðerini, X"54" ifadesi ise 54 deðerini temsil eder.
+                            -- Bu deðerler, sýrasýyla mesaj dizisinin beþinci, altýncý, yedinci, sekizinci ve dokuzuncu elemanlarýna atanýr.
+    
+
+
+    -----------------------------------------------------LCD kontrol kismi------------------------------------------------------
+    --LCD Controller bloðu; LCD controller deneyinde detaylý olarak açýklanmýþtýr.
+    -- Kodun bu kýsmýyla sýkýntý yaþarsanýz lütfen öncelikle LCD controller deneyi ile çalýþýnýz.
       
         if(rising_edge(clk))    then
             sayac:=sayac+1;
               
            case    adim    is
     ---------------Acilis Gecikmesi, 40 ms -----------------------------
+
+
+    
             when    0    =>    if (sayac=init_d)    then
                             sayac    :=    0;
                             adim    :=    1;
