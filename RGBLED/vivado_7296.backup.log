@@ -1,0 +1,399 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Jul 19 13:20:37 2023
+# Process ID: 7296
+# Current directory: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15556 D:\vivadoprojectsNEW\vivadoprojectslast\DDAPP\uygulama kodlar emranin hali\RGBLED\RGBLED.xpr
+# Log file: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/vivado.log
+# Journal file: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1096.336 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Wed Jul 19 13:44:35 2023] Launched synth_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log
+[Wed Jul 19 13:44:35 2023] Launched impl_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 04 2020-00:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1096.336 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183736763A
+set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Wed Jul 19 14:02:29 2023] Launched synth_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log
+[Wed Jul 19 14:02:29 2023] Launched impl_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'rgb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj rgb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.srcs/sources_1/new/kareler_son_hali.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'rgb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.sim/sim_1/behav/xsim'
+"xelab -wto ade4d1e739f244fd96b203232d26063c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rgb_behav xil_defaultlib.rgb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto ade4d1e739f244fd96b203232d26063c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rgb_behav xil_defaultlib.rgb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.rgb
+Built simulation snapshot rgb_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama -notrace
+couldn't read file "D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Wed Jul 19 14:05:02 2023...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2625.414 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "rgb_behav -key {Behavioral:sim_1:Functional:rgb} -tclbatch {rgb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source rgb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'rgb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 2660.918 ; gain = 35.504
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Wed Jul 19 14:15:21 2023] Launched synth_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log
+[Wed Jul 19 14:15:21 2023] Launched impl_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Wed Jul 19 15:40:15 2023] Launched synth_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log
+[Wed Jul 19 15:40:15 2023] Launched impl_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Wed Jul 19 15:43:45 2023] Launched synth_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log
+[Wed Jul 19 15:43:45 2023] Launched impl_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log
+reset_run impl_1
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'reset_runs' was cancelled
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+CRITICAL WARNING: [filemgmt 20-730] Could not find a top module in the fileset sources_1.
+Resolution: With the gui up, review the source files in the Sources window. Use Add Sources to add any needed sources. If the files are disabled, enable them. You can also select the file and choose Set Used In from the pop-up menu. Review if they are being used at the proper points of the flow.
+[Wed Jul 19 15:44:50 2023] Launched synth_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log
+[Wed Jul 19 15:44:50 2023] Launched impl_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Wed Jul 19 15:45:10 2023] Launched synth_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log
+[Wed Jul 19 15:45:10 2023] Launched impl_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Wed Jul 19 15:50:38 2023] Launched synth_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log
+[Wed Jul 19 15:50:38 2023] Launched impl_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Wed Jul 19 15:53:30 2023] Launched synth_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log
+[Wed Jul 19 15:53:30 2023] Launched impl_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Wed Jul 19 15:57:14 2023] Launched synth_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log
+[Wed Jul 19 15:57:14 2023] Launched impl_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Wed Jul 19 16:00:22 2023] Launched synth_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log
+[Wed Jul 19 16:00:22 2023] Launched impl_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Wed Jul 19 16:05:51 2023] Launched synth_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log
+[Wed Jul 19 16:05:51 2023] Launched impl_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Wed Jul 19 16:10:03 2023] Launched synth_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log
+[Wed Jul 19 16:10:03 2023] Launched impl_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Wed Jul 19 16:13:08 2023] Launched synth_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log
+[Wed Jul 19 16:13:08 2023] Launched impl_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Wed Jul 19 16:16:59 2023] Launched synth_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log
+[Wed Jul 19 16:16:59 2023] Launched impl_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Wed Jul 19 16:23:01 2023] Launched synth_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log
+[Wed Jul 19 16:23:01 2023] Launched impl_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Wed Jul 19 16:26:27 2023] Launched synth_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log
+[Wed Jul 19 16:26:27 2023] Launched impl_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Wed Jul 19 16:37:29 2023] Launched synth_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log
+[Wed Jul 19 16:37:29 2023] Launched impl_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Wed Jul 19 16:37:44 2023] Launched synth_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log
+[Wed Jul 19 16:37:44 2023] Launched impl_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Wed Jul 19 16:38:46 2023] Launched synth_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log
+[Wed Jul 19 16:38:46 2023] Launched impl_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Wed Jul 19 16:44:10 2023] Launched synth_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log
+[Wed Jul 19 16:44:10 2023] Launched impl_1...
+Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 19 16:47:32 2023...

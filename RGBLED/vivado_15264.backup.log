@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jun 15 09:55:07 2023
+# Process ID: 15264
+# Current directory: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14900 D:\vivadoprojectsNEW\vivadoprojectslast\DDAPP\uygulama kodlar emranin hali\RGBLED\RGBLED.xpr
+# Log file: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/vivado.log
+# Journal file: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 1087.922 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 15 11:20:05 2023...

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jul 20 14:36:06 2023
+# Process ID: 32540
+# Current directory: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1
+# Command line: vivado.exe -log rgb.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rgb.tcl
+# Log file: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/rgb.vds
+# Journal file: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source rgb.tcl -notrace

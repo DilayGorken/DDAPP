@@ -1,0 +1,1143 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 28824
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Jul 20 11:26:22 EET 2023
+Time zone: 	Eastern European Time (Asia/Istanbul)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	D:/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	D:/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	dilay
+User home directory: C:/Users/dilay
+User working directory: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED
+User country: 	TR
+User language: 	tr
+User locale: 	tr_TR
+
+RDI_BASEROOT: D:/Vivado
+HDI_APPROOT: D:/Vivado/2020.2
+RDI_DATADIR: D:/Vivado/2020.2/data
+RDI_BINDIR: D:/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/dilay/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/dilay/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/dilay/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	D:/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/vivado.log
+Vivado journal file location: 	D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/vivado.jou
+Engine tmp dir: 	D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/.Xil/Vivado-28824-Dilay
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: D:/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: D:/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: D:/Vivado/2020.2
+XILINX_SDK: D:/Vitis/2020.2
+XILINX_VITIS: D:/Vitis/2020.2
+XILINX_VIVADO: D:/Vivado/2020.2
+XILINX_VIVADO_HLS: D:/Vivado/2020.2
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,054 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 73 MB (+74413kb) [00:00:08]
+// [Engine Memory]: 1,054 MB (+953711kb) [00:00:08]
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: D:\vivadoprojectsNEW\vivadoprojectslast\DDAPP\uygulama kodlar emranin hali\RGBLED\RGBLED.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED' 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,054 MB. GUI used memory: 51 MB. Current time: 7/20/23, 11:26:23 AM EET
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 84 MB (+7413kb) [00:00:17]
+// [GUI Memory]: 105 MB (+17058kb) [00:00:18]
+// WARNING: HEventQueue.dispatchEvent() is taking  2893 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2020.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1090.289 ; gain = 0.000 
+// Project name: RGBLED; location: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bz
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 136 MB (+27766kb) [00:00:31]
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rgb(Behavioral) (kareler_son_hali.vhd)]", 1, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rgb(Behavioral) (kareler_son_hali.vhd)]", 1, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 59 seconds
+selectCodeEditor("kareler_son_hali.vhd", 310, 261); // bP
+selectCodeEditor("kareler_son_hali.vhd", 282, 237); // bP
+selectCodeEditor("kareler_son_hali.vhd", 278, 251); // bP
+selectCodeEditor("kareler_son_hali.vhd", 284, 244); // bP
+selectCodeEditor("kareler_son_hali.vhd", 345, 230); // bP
+selectCodeEditor("kareler_son_hali.vhd", 5, 198); // bP
+selectCodeEditor("kareler_son_hali.vhd", 40, 355); // bP
+selectCodeEditor("kareler_son_hali.vhd", 50, 264); // bP
+selectCodeEditor("kareler_son_hali.vhd", 45, 305); // bP
+selectCodeEditor("kareler_son_hali.vhd", 345, 207); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("kareler_son_hali.vhd", 293, 270); // bP
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bz
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// bz (cr):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Thu Jul 20 11:28:37 2023] Launched synth_1... Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log [Thu Jul 20 11:28:37 2023] Launched impl_1... Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 98 seconds
+selectCodeEditor("kareler_son_hali.vhd", 95, 262); // bP
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cr): Bitstream Generation Completed: addNotify
+// Elapsed time: 27 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bz (cr):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// WARNING: HEventQueue.dispatchEvent() is taking  1373 ms.
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// [GUI Memory]: 148 MB (+5153kb) [00:04:36]
+dismissDialog("Open Hardware Manager"); // bz
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ak
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bz (cr):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2020.2   **** Build date : Nov 18 2020 at 10:01:48     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.   INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 
+// Tcl Message: INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2020.2   ****** Build date   : Nov 04 2020-00:02:56     **** Build number : 2020.2.1604437376       ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1090.289 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  4751 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183736763A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 2,569 MB (+1533663kb) [00:04:52]
+// TclEventType: HW_DEVICE_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,573 MB. GUI used memory: 82 MB. Current time: 7/20/23, 11:31:03 AM EET
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Elapsed time: 15 seconds
+dismissDialog("Auto Connect"); // bz
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ak
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cr): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cr):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz
+// Elapsed time: 33 seconds
+selectCodeEditor("kareler_son_hali.vhd", 211, 212); // bP
+selectCodeEditor("kareler_son_hali.vhd", 90, 279); // bP
+selectCodeEditor("kareler_son_hali.vhd", 161, 246); // bP
+selectCodeEditor("kareler_son_hali.vhd", 251, 326); // bP
+selectCodeEditor("kareler_son_hali.vhd", 54, 383); // bP
+selectCodeEditor("kareler_son_hali.vhd", 141, 424); // bP
+selectCodeEditor("kareler_son_hali.vhd", 247, 376); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_LAUNCH
+dismissDialog("Resetting Runs"); // bz
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Thu Jul 20 11:32:19 2023] Launched synth_1... Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log [Thu Jul 20 11:32:19 2023] Launched impl_1... Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 64 seconds
+selectCodeEditor("kareler_son_hali.vhd", 744, 225); // bP
+// Elapsed time: 14 seconds
+selectCodeEditor("kareler_son_hali.vhd", 745, 385); // bP
+selectCodeEditor("kareler_son_hali.vhd", 750, 375); // bP
+// Elapsed time: 15 seconds
+selectCodeEditor("kareler_son_hali.vhd", 726, 378); // bP
+selectCodeEditor("kareler_son_hali.vhd", 725, 383); // bP
+selectCodeEditor("kareler_son_hali.vhd", 730, 383); // bP
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cr): Bitstream Generation Completed: addNotify
+// Elapsed time: 12 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Bitstream Generation Completed"); // ag
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ak
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cr): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cr):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bz
+// Elapsed time: 12 seconds
+selectCodeEditor("kareler_son_hali.vhd", 241, 422); // bP
+// Elapsed time: 31 seconds
+selectCodeEditor("kareler_son_hali.vhd", 505, 276); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("kareler_son_hali.vhd", 464, 310); // bP
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cr):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_LAUNCH
+dismissDialog("Resetting Runs"); // bz
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Thu Jul 20 11:35:11 2023] Launched synth_1... Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log [Thu Jul 20 11:35:11 2023] Launched impl_1... Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 117 seconds
+selectCodeEditor("kareler_son_hali.vhd", 0, 161); // bP
+// ag (cr): Bitstream Generation Completed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Bitstream Generation Completed"); // ag
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'c'); // bP
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ak
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cr): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cr):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz
+// Elapsed time: 46 seconds
+selectCodeEditor("kareler_son_hali.vhd", 182, 232); // bP
+// Elapsed time: 15 seconds
+selectCodeEditor("kareler_son_hali.vhd", 582, 421); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bz
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Thu Jul 20 11:38:34 2023] Launched synth_1... Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log [Thu Jul 20 11:38:34 2023] Launched impl_1... Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 113 seconds
+selectCodeEditor("kareler_son_hali.vhd", 2, 158); // bP
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cr): Bitstream Generation Completed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Bitstream Generation Completed"); // ag
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'c'); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'c'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 113, 323, false, false, false, true, false); // bP - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ak
+// Elapsed time: 57 seconds
+floatFrame(PAResourceOtoP.PAViews_CODE, "kareler_son_hali.vhd"); // az
+// PAResourceOtoP.PAViews_CODE: Code: float view
+// Elapsed time: 14 seconds
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "kareler_son_hali.vhd"); // az
+dockFrame(PAResourceOtoP.PAViews_CODE, "kareler_son_hali.vhd"); // az
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "kareler_son_hali.vhd"); // az
+// PAResourceOtoP.PAViews_CODE: Code: dock view
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // E
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// Elapsed time: 175 seconds
+selectCodeEditor("kareler_son_hali.vhd", 462, 150); // bP
+selectCodeEditor("kareler_son_hali.vhd", 490, 142); // bP
+// Elapsed time: 25 seconds
+selectCodeEditor("kareler_son_hali.vhd", 297, 372); // bP
+// Elapsed time: 195 seconds
+selectCodeEditor("kareler_son_hali.vhd", 129, 467); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("kareler_son_hali.vhd", 0, 276); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'c'); // bP
+// Elapsed time: 438 seconds
+selectCodeEditor("kareler_son_hali.vhd", 325, 139); // bP
+// Elapsed time: 83 seconds
+selectCodeEditor("kareler_son_hali.vhd", 603, 479); // bP
+// Elapsed time: 13 seconds
+selectCodeEditor("kareler_son_hali.vhd", 1, 140); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'c'); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 2,607 MB. GUI used memory: 83 MB. Current time: 7/20/23, 12:01:04 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,607 MB. GUI used memory: 75 MB. Current time: 7/20/23, 12:31:06 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,607 MB. GUI used memory: 73 MB. Current time: 7/20/23, 1:01:08 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,607 MB. GUI used memory: 73 MB. Current time: 7/20/23, 1:31:09 PM EET
+// HOptionPane Error: 'The paste failed. The clipboard content is not text. (Paste Error)'
+// Elapsed time: 5672 seconds
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectButton("OptionPane.button", "OK"); // JButton
+// Elapsed time: 743 seconds
+selectCodeEditor("kareler_son_hali.vhd", 280, 338); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'c'); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'c'); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'c'); // bP
+// Elapsed time: 61 seconds
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // C
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ak
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cr): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cr):  Program Device : addNotify
+dismissDialog("Program Device"); // bC
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183736763A 
+// o (cr): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 780 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Close Hardware Target"); // o
+selectCodeEditor("kareler_son_hali.vhd", 497, 307); // bP
+// Elapsed time: 13 seconds
+selectCodeEditor("kareler_son_hali.vhd", 919, 286); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("kareler_son_hali.vhd", 349, 402); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 2,607 MB. GUI used memory: 74 MB. Current time: 7/20/23, 2:01:10 PM EET
+// Elapsed time: 414 seconds
+selectCodeEditor("kareler_son_hali.vhd", 781, 232); // bP
+// Elapsed time: 618 seconds
+selectCodeEditor("kareler_son_hali.vhd", 154, 263); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+// Elapsed time: 14 seconds
+selectCodeEditor("kareler_son_hali.vhd", 155, 163); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 155, 162); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("kareler_son_hali.vhd", 86, 124); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 952, 141); // bP
+// Elapsed time: 19 seconds
+selectCodeEditor("kareler_son_hali.vhd", 144, 163); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+typeControlKey(null, null, 'z');
+selectCodeEditor("kareler_son_hali.vhd", 142, 164); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 81, 193); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+typeControlKey(null, null, 'z');
+// Elapsed time: 13 seconds
+selectCodeEditor("kareler_son_hali.vhd", 90, 201); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 737, 210); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 19 seconds
+selectCodeEditor("kareler_son_hali.vhd", 2, 71); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 291, 167); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectCodeEditor("kareler_son_hali.vhd", 627, 141); // bP
+// Elapsed time: 35 seconds
+selectCodeEditor("kareler_son_hali.vhd", 538, 366); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("kareler_son_hali.vhd", 763, 324); // bP
+selectCodeEditor("kareler_son_hali.vhd", 451, 335); // bP
+selectCodeEditor("kareler_son_hali.vhd", 446, 347); // bP
+selectCodeEditor("kareler_son_hali.vhd", 568, 351); // bP
+selectCodeEditor("kareler_son_hali.vhd", 527, 310); // bP
+selectCodeEditor("kareler_son_hali.vhd", 622, 145); // bP
+selectCodeEditor("kareler_son_hali.vhd", 700, 158); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bz
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Thu Jul 20 14:20:26 2023] Launched synth_1... Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log [Thu Jul 20 14:20:26 2023] Launched impl_1... Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cr): Bitstream Generation Completed: addNotify
+// Elapsed time: 190 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Bitstream Generation Completed"); // ag
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ak
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cr): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cr):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bz
+// Elapsed time: 29 seconds
+selectCodeEditor("kareler_son_hali.vhd", 104, 125); // bP
+selectCodeEditor("kareler_son_hali.vhd", 91, 144); // bP
+selectCodeEditor("kareler_son_hali.vhd", 91, 144, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 74, 224); // bP
+selectCodeEditor("kareler_son_hali.vhd", 74, 224, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("kareler_son_hali.vhd", 81, 244); // bP
+selectCodeEditor("kareler_son_hali.vhd", 81, 244, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 76, 349); // bP
+selectCodeEditor("kareler_son_hali.vhd", 76, 349, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("kareler_son_hali.vhd", 69, 329); // bP
+selectCodeEditor("kareler_son_hali.vhd", 81, 353); // bP
+selectCodeEditor("kareler_son_hali.vhd", 81, 353, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 124, 415); // bP
+selectCodeEditor("kareler_son_hali.vhd", 124, 415, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'c'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 96, 451); // bP
+selectCodeEditor("kareler_son_hali.vhd", 96, 451); // bP
+selectCodeEditor("kareler_son_hali.vhd", 96, 451, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 87, 456); // bP
+selectCodeEditor("kareler_son_hali.vhd", 87, 456, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("kareler_son_hali.vhd", 95, 464); // bP
+selectCodeEditor("kareler_son_hali.vhd", 95, 464, false, true, false, false, true); // bP - Control Key - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 84, 434); // bP
+selectCodeEditor("kareler_son_hali.vhd", 89, 432); // bP
+selectCodeEditor("kareler_son_hali.vhd", 89, 432); // bP
+selectCodeEditor("kareler_son_hali.vhd", 89, 432, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("kareler_son_hali.vhd", 90, 452); // bP
+selectCodeEditor("kareler_son_hali.vhd", 90, 452, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 79, 536); // bP
+selectCodeEditor("kareler_son_hali.vhd", 79, 536, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("kareler_son_hali.vhd", 82, 553); // bP
+selectCodeEditor("kareler_son_hali.vhd", 82, 553, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 83, 437); // bP
+selectCodeEditor("kareler_son_hali.vhd", 83, 437, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("kareler_son_hali.vhd", 113, 455); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 114, 456); // bP
+selectCodeEditor("kareler_son_hali.vhd", 51, 433); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 50, 329); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 51, 232); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 47, 297); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 86, 281); // bP
+selectCodeEditor("kareler_son_hali.vhd", 86, 281, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 71, 335); // bP
+selectCodeEditor("kareler_son_hali.vhd", 71, 335, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 52, 231); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 49, 278); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 277, 341); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 20 seconds
+selectCodeEditor("kareler_son_hali.vhd", 74, 314); // bP
+selectCodeEditor("kareler_son_hali.vhd", 74, 314, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'c'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 83, 331); // bP
+selectCodeEditor("kareler_son_hali.vhd", 83, 331, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 86, 435); // bP
+selectCodeEditor("kareler_son_hali.vhd", 86, 435, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 401, 388); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_LAUNCH
+dismissDialog("Resetting Runs"); // bz
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Thu Jul 20 14:25:51 2023] Launched synth_1... Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log [Thu Jul 20 14:25:51 2023] Launched impl_1... Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cr): Bitstream Generation Completed: addNotify
+// Elapsed time: 134 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Bitstream Generation Completed"); // ag
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ak
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cr): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cr):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bz
+// Elapsed time: 40 seconds
+selectCodeEditor("kareler_son_hali.vhd", 87, 389); // bP
+selectCodeEditor("kareler_son_hali.vhd", 87, 389, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'c'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 86, 536); // bP
+selectCodeEditor("kareler_son_hali.vhd", 86, 536, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 85, 433); // bP
+selectCodeEditor("kareler_son_hali.vhd", 85, 433, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 421, 385); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): Synthesis is Out-of-date: addNotify
+dismissDialog("Synthesis is Out-of-date"); // A
+selectCodeEditor("kareler_son_hali.vhd", 179, 432); // bP
+selectCodeEditor("kareler_son_hali.vhd", 189, 432); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'c'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 154, 542); // bP
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 342, 453); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bz
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Thu Jul 20 14:29:24 2023] Launched synth_1... Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log [Thu Jul 20 14:29:24 2023] Launched impl_1... Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,607 MB. GUI used memory: 74 MB. Current time: 7/20/23, 2:31:10 PM EET
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cr): Bitstream Generation Completed: addNotify
+// Elapsed time: 128 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bz (cr):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// WARNING: HEventQueue.dispatchEvent() is taking  1757 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 1249ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1252 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1769 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,349 MB. GUI used memory: 74 MB. Current time: 7/20/23, 2:31:48 PM EET
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 3,367 MB. GUI used memory: 74 MB. Current time: 7/20/23, 2:31:58 PM EET
+// [Engine Memory]: 3,368 MB (+703169kb) [03:05:48]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  2059 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a35tcpg236-1 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2953.809 ; gain = 0.000 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2020.2 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 3637.246 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 3637.246 ; gain = 0.000 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3637.246 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: open_run: Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 3747.469 ; gain = 1062.145 
+// Device view-level: 0,0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// [GUI Memory]: 161 MB (+5458kb) [03:05:52]
+// TclEventType: TIMING_SUMMARY_UPDATED
+// [Engine Memory]: 3,537 MB (+73kb) [03:05:53]
+// 'dV' command handler elapsed time: 32 seconds
+// WARNING: HEventQueue.dispatchEvent() is taking  1029 ms.
+// Elapsed time: 33 seconds
+dismissDialog("Open Implemented Design"); // bz
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 34, false); // u
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// [GUI Memory]: 174 MB (+5764kb) [03:06:08]
+selectMenuItem((HResource) null, "xc7a35t_0"); // ak
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cr): Program Device: addNotify
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cr):  Program Device : addNotify
+dismissDialog("Program Device"); // bC
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bz
+// Elapsed time: 48 seconds
+selectCodeEditor("kareler_son_hali.vhd", 84, 471); // bP
+selectCodeEditor("kareler_son_hali.vhd", 84, 471, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'c'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 91, 484); // bP
+selectCodeEditor("kareler_son_hali.vhd", 91, 484, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 81, 380); // bP
+selectCodeEditor("kareler_son_hali.vhd", 81, 380, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 88, 417); // bP
+selectCodeEditor("kareler_son_hali.vhd", 88, 417, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 116, 399); // bP
+selectCodeEditor("kareler_son_hali.vhd", 116, 399, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 69, 312); // bP
+selectCodeEditor("kareler_son_hali.vhd", 69, 312, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 134, 289); // bP
+selectCodeEditor("kareler_son_hali.vhd", 134, 289, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 384, 420); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 30, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bz
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Thu Jul 20 14:33:38 2023] Launched synth_1... Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log [Thu Jul 20 14:33:38 2023] Launched impl_1... Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 99 seconds
+selectCodeEditor("kareler_son_hali.vhd", 78, 379); // bP
+selectCodeEditor("kareler_son_hali.vhd", 78, 379, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'c'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 79, 402); // bP
+selectCodeEditor("kareler_son_hali.vhd", 79, 402, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 75, 506); // bP
+selectCodeEditor("kareler_son_hali.vhd", 75, 506, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 75, 504); // bP
+selectCodeEditor("kareler_son_hali.vhd", 75, 504, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+selectCodeEditor("kareler_son_hali.vhd", 90, 520); // bP
+selectCodeEditor("kareler_son_hali.vhd", 90, 520, false, false, false, false, true); // bP - Double Click
+// ag (cr): Bitstream Generation Completed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ag
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 33, false); // u
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ak
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cr): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cr):  Program Device : addNotify
+dismissDialog("Program Device"); // bC
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz
+// Elapsed time: 12 seconds
+selectCodeEditor("kareler_son_hali.vhd", 164, 455); // bP
+selectCodeEditor("kareler_son_hali.vhd", 82, 521); // bP
+selectCodeEditor("kareler_son_hali.vhd", 82, 521, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 75, 401); // bP
+selectCodeEditor("kareler_son_hali.vhd", 75, 401, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 84, 299); // bP
+selectCodeEditor("kareler_son_hali.vhd", 84, 299, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 73, 298); // bP
+selectCodeEditor("kareler_son_hali.vhd", 73, 298, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 76, 194); // bP
+selectCodeEditor("kareler_son_hali.vhd", 76, 194, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "kareler_son_hali.vhd", 'v'); // bP
+selectCodeEditor("kareler_son_hali.vhd", 367, 214); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 30, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bz
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Thu Jul 20 14:36:03 2023] Launched synth_1... Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/synth_1/runme.log [Thu Jul 20 14:36:03 2023] Launched impl_1... Run output will be captured here: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cr): Bitstream Generation Completed: addNotify
+// Elapsed time: 210 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ag
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 33, false); // u
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ak
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cr): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cr):  Program Device : addNotify
+dismissDialog("Program Device"); // bC
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/RGBLED/RGBLED.runs/impl_1/rgb.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bz
+// Elapsed time: 12 seconds
+selectCodeEditor("kareler_son_hali.vhd", 678, 423); // bP
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ah
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_BITSTREAM_FILES, "Export Bitstream File..."); // ak
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_BITSTREAM_FILES
+dismissFileChooser();
+// 'a' command handler elapsed time: 5 seconds
+// Elapsed time: 12 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // ac
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ac
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // ac
+selectMenuItem(PAResourceCommand.PACommandNames_FIND_IN_FILES, "Find in Files..."); // ak
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // ac
+// Run Command: PAResourceCommand.PACommandNames_FIND_IN_FILES
+// Find in Files: addNotify
+dismissDialog("Find in Files"); // a
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ac
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ac
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // ac
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // ac
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // ac
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // ac
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // ac
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // ac
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // ac
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // ac
+selectCodeEditor("kareler_son_hali.vhd", 470, 205); // bP
