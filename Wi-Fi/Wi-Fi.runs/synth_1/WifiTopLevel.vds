@@ -1,0 +1,408 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Aug 26 16:09:34 2019
+# Process ID: 12676
+# Current directory: C:/Users/ARGE2/Desktop/Projeler/fpga-iot/esp8266/esp8266.runs/synth_1
+# Command line: vivado.exe -log WifiTopLevel.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source WifiTopLevel.tcl
+# Log file: C:/Users/ARGE2/Desktop/Projeler/fpga-iot/esp8266/esp8266.runs/synth_1/WifiTopLevel.vds
+# Journal file: C:/Users/ARGE2/Desktop/Projeler/fpga-iot/esp8266/esp8266.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source WifiTopLevel.tcl -notrace
+Command: synth_design -top WifiTopLevel -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13856 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 409.672 ; gain = 95.941
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'WifiTopLevel' [C:/Users/ARGE2/Desktop/Projeler/fpga-iot/esp8266/esp8266.srcs/sources_1/new/esp8266.vhd:21]
+INFO: [Synth 8-3491] module 'esp8266_driver' declared at 'C:/Users/ARGE2/Desktop/Projeler/fpga-iot/esp8266/esp8266.srcs/sources_1/new/driver.vhd:20' bound to instance 'i_esp8226' of component 'esp8266_driver' [C:/Users/ARGE2/Desktop/Projeler/fpga-iot/esp8266/esp8266.srcs/sources_1/new/esp8266.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'esp8266_driver' [C:/Users/ARGE2/Desktop/Projeler/fpga-iot/esp8266/esp8266.srcs/sources_1/new/driver.vhd:41]
+INFO: [Synth 8-3491] module 'tx' declared at 'C:/Users/ARGE2/Desktop/Projeler/fpga-iot/esp8266/esp8266.srcs/sources_1/new/tx.vhd:13' bound to instance 'i_tx' of component 'tx' [C:/Users/ARGE2/Desktop/Projeler/fpga-iot/esp8266/esp8266.srcs/sources_1/new/driver.vhd:124]
+INFO: [Synth 8-638] synthesizing module 'tx' [C:/Users/ARGE2/Desktop/Projeler/fpga-iot/esp8266/esp8266.srcs/sources_1/new/tx.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'tx' (1#1) [C:/Users/ARGE2/Desktop/Projeler/fpga-iot/esp8266/esp8266.srcs/sources_1/new/tx.vhd:21]
+INFO: [Synth 8-3491] module 'rx' declared at 'C:/Users/ARGE2/Desktop/Projeler/fpga-iot/esp8266/esp8266.srcs/sources_1/new/rx.vhd:13' bound to instance 'i_rx' of component 'rx' [C:/Users/ARGE2/Desktop/Projeler/fpga-iot/esp8266/esp8266.srcs/sources_1/new/driver.vhd:131]
+INFO: [Synth 8-638] synthesizing module 'rx' [C:/Users/ARGE2/Desktop/Projeler/fpga-iot/esp8266/esp8266.srcs/sources_1/new/rx.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'rx' (2#1) [C:/Users/ARGE2/Desktop/Projeler/fpga-iot/esp8266/esp8266.srcs/sources_1/new/rx.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'esp8266_driver' (3#1) [C:/Users/ARGE2/Desktop/Projeler/fpga-iot/esp8266/esp8266.srcs/sources_1/new/driver.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'WifiTopLevel' (4#1) [C:/Users/ARGE2/Desktop/Projeler/fpga-iot/esp8266/esp8266.srcs/sources_1/new/esp8266.vhd:21]
+WARNING: [Synth 8-3331] design WifiTopLevel has unconnected port led[11]
+WARNING: [Synth 8-3331] design WifiTopLevel has unconnected port led[10]
+WARNING: [Synth 8-3331] design WifiTopLevel has unconnected port led[9]
+WARNING: [Synth 8-3331] design WifiTopLevel has unconnected port led[8]
+WARNING: [Synth 8-3331] design WifiTopLevel has unconnected port led[7]
+WARNING: [Synth 8-3331] design WifiTopLevel has unconnected port led[6]
+WARNING: [Synth 8-3331] design WifiTopLevel has unconnected port led[5]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 464.637 ; gain = 150.906
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 464.637 ; gain = 150.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 464.637 ; gain = 150.906
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/ARGE2/Desktop/Projeler/fpga-iot/esp8266/esp8266.srcs/constrs_1/imports/new/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/ARGE2/Desktop/Projeler/fpga-iot/esp8266/esp8266.srcs/constrs_1/imports/new/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/ARGE2/Desktop/Projeler/fpga-iot/esp8266/esp8266.srcs/constrs_1/imports/new/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/WifiTopLevel_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/WifiTopLevel_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 801.555 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 801.555 ; gain = 487.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 801.555 ; gain = 487.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 801.555 ; gain = 487.824
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "tx_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "data_enable" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "receiving" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-4471] merging register 'wifi_enable_reg' into 'status_active_reg' [C:/Users/ARGE2/Desktop/Projeler/fpga-iot/esp8266/esp8266.srcs/sources_1/new/driver.vhd:171]
+WARNING: [Synth 8-6014] Unused sequential element wifi_enable_reg was removed.  [C:/Users/ARGE2/Desktop/Projeler/fpga-iot/esp8266/esp8266.srcs/sources_1/new/driver.vhd:171]
+INFO: [Synth 8-5546] ROM "tx_data_enable" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inc_wd_high" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "rx_seeing_change" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "rx_seeing_ready" won't be mapped to RAM because address size (56) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "rx_seeing_ok" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "rx_seeing_prompt" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6040] Register current_char_reg_rep driving address of a ROM cannot be packed in BRAM/URAM because of presence of initial value.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 801.555 ; gain = 487.824
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input     14 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               80 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	               14 Bit    Registers := 2     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 5     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 22    
++---Muxes : 
+	   2 Input     80 Bit        Muxes := 2     
+	  15 Input     27 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 2     
+	   2 Input     10 Bit        Muxes := 1     
+	  15 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   4 Input      8 Bit        Muxes := 1     
+	   6 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  16 Input      4 Bit        Muxes := 1     
+	  15 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 16    
+	  15 Input      1 Bit        Muxes := 13    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module tx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     14 Bit       Adders := 1     
++---Registers : 
+	               14 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     14 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module rx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     14 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               14 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     14 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module esp8266_driver 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 2     
++---Registers : 
+	               80 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 16    
++---Muxes : 
+	   2 Input     80 Bit        Muxes := 2     
+	  15 Input     27 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	  15 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   4 Input      8 Bit        Muxes := 1     
+	   6 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  16 Input      4 Bit        Muxes := 1     
+	  15 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 9     
+	  15 Input      1 Bit        Muxes := 13    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "i_esp8226/i_tx/tx_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i_esp8226/i_rx/receiving" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i_esp8226/inc_wd_high" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i_esp8226/state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "i_esp8226/rx_seeing_ok" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "i_esp8226/rx_seeing_change" won't be mapped to RAM because address size (64) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "i_esp8226/rx_seeing_prompt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i_esp8226/tx_data_enable" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "i_esp8226/rx_seeing_ready" won't be mapped to RAM because address size (56) is larger than maximum supported(25)
+WARNING: [Synth 8-6040] Register i_esp8226/current_char_reg_rep driving address of a ROM cannot be packed in BRAM/URAM because of presence of initial value.
+WARNING: [Synth 8-3917] design WifiTopLevel has port led[11] driven by constant 0
+WARNING: [Synth 8-3917] design WifiTopLevel has port led[10] driven by constant 0
+WARNING: [Synth 8-3917] design WifiTopLevel has port led[9] driven by constant 0
+WARNING: [Synth 8-3917] design WifiTopLevel has port led[8] driven by constant 0
+WARNING: [Synth 8-3917] design WifiTopLevel has port led[7] driven by constant 0
+WARNING: [Synth 8-3917] design WifiTopLevel has port led[6] driven by constant 0
+WARNING: [Synth 8-3917] design WifiTopLevel has port led[5] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 801.555 ; gain = 487.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++---------------+------------+---------------+----------------+
+|Module Name    | RTL Object | Depth x Width | Implemented As | 
++---------------+------------+---------------+----------------+
+|esp8266_driver | p_0_out    | 256x8         | LUT            | 
++---------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:38 . Memory (MB): peak = 801.555 ; gain = 487.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:38 . Memory (MB): peak = 813.723 ; gain = 499.992
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:39 . Memory (MB): peak = 817.469 ; gain = 503.738
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 817.469 ; gain = 503.738
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 817.469 ; gain = 503.738
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 817.469 ; gain = 503.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 817.469 ; gain = 503.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 817.469 ; gain = 503.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 817.469 ; gain = 503.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    79|
+|3     |LUT1   |    30|
+|4     |LUT2   |    45|
+|5     |LUT3   |   226|
+|6     |LUT4   |    31|
+|7     |LUT5   |    49|
+|8     |LUT6   |    85|
+|9     |MUXF7  |    11|
+|10    |MUXF8  |     5|
+|11    |FDRE   |   236|
+|12    |FDSE   |    24|
+|13    |IBUF   |     3|
+|14    |OBUF   |    18|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------+---------------+------+
+|      |Instance    |Module         |Cells |
++------+------------+---------------+------+
+|1     |top         |               |   843|
+|2     |  i_esp8226 |esp8266_driver |   821|
+|3     |    i_rx    |rx             |    84|
+|4     |    i_tx    |tx             |    84|
++------+------------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 817.469 ; gain = 503.738
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 10 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 817.469 ; gain = 166.820
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 817.469 ; gain = 503.738
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 98 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+43 Infos, 17 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:43 . Memory (MB): peak = 817.469 ; gain = 516.746
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ARGE2/Desktop/Projeler/fpga-iot/esp8266/esp8266.runs/synth_1/WifiTopLevel.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file WifiTopLevel_utilization_synth.rpt -pb WifiTopLevel_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 817.469 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 26 16:10:26 2019...

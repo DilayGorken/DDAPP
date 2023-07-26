@@ -1,0 +1,97 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Mon Aug 26 16:11:31 2019
+| Host         : BARAN running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file WifiTopLevel_control_sets_placed.rpt
+| Design       : WifiTopLevel
+| Device       : xc7a35t
+-----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    28 |
+| Unused register locations in slices containing registers |   102 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            9 |
+|      4 |            1 |
+|      8 |            4 |
+|     10 |            1 |
+|     12 |            1 |
+|    16+ |           12 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              34 |           13 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              60 |            7 |
+| Yes          | No                    | No                     |             298 |           44 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             130 |           19 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------+-------------------------------------+----------------------------------------+------------------+----------------+
+|    Clock Signal   |            Enable Signal            |            Set/Reset Signal            | Slice Load Count | Bel Load Count |
++-------------------+-------------------------------------+----------------------------------------+------------------+----------------+
+|  clk100_IBUF_BUFG | i_esp8226/i_tx/busy_sr[9]_i_1_n_0   |                                        |                1 |              2 |
+|  clk100_IBUF_BUFG | i_esp8226/status_error2_out         |                                        |                1 |              2 |
+|  clk100_IBUF_BUFG | i_esp8226/status_connected4_out     |                                        |                1 |              2 |
+|  clk100_IBUF_BUFG | i_esp8226/status_led_1_reg_i_2_n_1  | i_esp8226/status_led_1_reg_i_1_n_1     |                1 |              2 |
+|  clk100_IBUF_BUFG | i_esp8226/status_led_2_reg_i_2_n_1  | i_esp8226/status_led_2_reg_i_1_n_1     |                1 |              2 |
+|  clk100_IBUF_BUFG | i_esp8226/status_led_3_reg_i_2_n_1  | i_esp8226/status_led_3_reg_i_1_n_1     |                1 |              2 |
+|  clk100_IBUF_BUFG | i_esp8226/status_wifi_up5_out       |                                        |                1 |              2 |
+|  clk100_IBUF_BUFG | i_esp8226/status_sending3_out       |                                        |                1 |              2 |
+|  clk100_IBUF_BUFG | i_esp8226/status_led_4_reg_i_2_n_1  | i_esp8226/status_led_4_reg_i_1_n_1     |                1 |              2 |
+|  clk100_IBUF_BUFG | i_esp8226/status_active_i_1_n_0     |                                        |                1 |              4 |
+|  clk100_IBUF_BUFG | i_esp8226/i_rx/receiving[7]_i_1_n_0 | i_esp8226/i_rx/bit_count               |                1 |              8 |
+|  clk100_IBUF_BUFG | i_esp8226/i_tx/tx_data_enable_reg   |                                        |                1 |              8 |
+|  clk100_IBUF_BUFG | i_esp8226/i_tx/tx_data_enable_reg   | i_esp8226/tx_data[7]_i_1_n_0           |                1 |              8 |
+|  clk100_IBUF_BUFG | i_esp8226/state[3]_i_2_n_0          | i_esp8226/state[3]_i_1_n_0             |                1 |              8 |
+|  clk100_IBUF_BUFG | i_esp8226/i_rx/last_rx_chars_reg[0] | i_esp8226/i_rx/last_rx_chars_reg[4]    |                1 |             10 |
+|  clk100_IBUF_BUFG | i_esp8226/i_tx/current_char_reg[0]  | i_esp8226/i_tx/current_char_reg_rep[3] |                2 |             12 |
+|  clk100_IBUF_BUFG | i_esp8226/i_rx/data[7]_i_1_n_0      |                                        |                1 |             16 |
+|  clk100_IBUF_BUFG | i_esp8226/i_rx/receiving[7]_i_1_n_0 |                                        |                1 |             16 |
+|  clk100_IBUF_BUFG | i_esp8226/i_tx/current_char_reg[0]  |                                        |                3 |             20 |
+|  clk100_IBUF_BUFG | i_esp8226/i_tx/sending[9]_i_1_n_0   |                                        |                3 |             20 |
+|  clk100_IBUF_BUFG | i_esp8226/i_tx/busy_sr[9]_i_1_n_0   | i_esp8226/i_tx/baud_count[13]_i_1_n_0  |                2 |             20 |
+|  clk100_IBUF_BUFG |                                     | i_esp8226/i_tx/baud_count[13]_i_1_n_0  |                3 |             28 |
+|  clk100_IBUF_BUFG | i_esp8226/i_rx/busy                 | i_esp8226/i_rx/bit_count               |                3 |             28 |
+|  clk100_IBUF_BUFG | i_esp8226/inc_wd_high_reg_n_0       | i_esp8226/watchdog_high0               |                4 |             28 |
+|  clk100_IBUF_BUFG |                                     | i_esp8226/watchdog_low[16]_i_1_n_0     |                4 |             32 |
+|  clk100_IBUF_BUFG |                                     |                                        |               13 |             34 |
+|  clk100_IBUF_BUFG | i_esp8226/delay_counter[0]_i_1_n_0  |                                        |                7 |             54 |
+|  clk100_IBUF_BUFG | i_esp8226/i_rx/E[0]                 |                                        |               22 |            150 |
++-------------------+-------------------------------------+----------------------------------------+------------------+----------------+
+
+

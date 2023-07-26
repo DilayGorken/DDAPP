@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jul 24 09:47:39 2023
+# Process ID: 14772
+# Current directory: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/Wi-Fi
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent35956 D:\vivadoprojectsNEW\vivadoprojectslast\DDAPP\uygulama kodlar emranin hali\Wi-Fi\Wi-Fi.xpr
+# Log file: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/Wi-Fi/vivado.log
+# Journal file: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/Wi-Fi\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/Wi-Fi/Wi-Fi.xpr}
+update_compile_order -fileset sources_1
