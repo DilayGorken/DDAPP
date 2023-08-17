@@ -1,0 +1,93 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Thu Aug 17 13:32:34 2023
+| Host         : Dilay running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file dc_motor_encoder_control_sets_placed.rpt
+| Design       : dc_motor_encoder
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    15 |
+|    Minimum number of control sets                        |    15 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    49 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    15 |
+| >= 0 to < 4        |     2 |
+| >= 4 to < 6        |     4 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     2 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     6 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              13 |            7 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              20 |            5 |
+| Yes          | No                    | No                     |              62 |           22 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              72 |           20 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------+--------------------------+----------------------+------------------+----------------+--------------+
+|     Clock Signal    |       Enable Signal      |   Set/Reset Signal   | Slice Load Count | Bel Load Count | Bels / Slice |
++---------------------+--------------------------+----------------------+------------------+----------------+--------------+
+|  USER_CLK_IBUF_BUFG | counter3                 |                      |                1 |              1 |         1.00 |
+|  USER_CLK_IBUF_BUFG | sayac[25]_i_2_n_0        |                      |                1 |              1 |         1.00 |
+|  USER_CLK_IBUF_BUFG | butun_vector[19]_i_1_n_0 |                      |                1 |              4 |         4.00 |
+| ~clock_1khz_reg_n_0 |                          | count[3]_i_1_n_0     |                1 |              4 |         4.00 |
+|  USER_CLK_IBUF_BUFG | adim                     | adim[4]_i_1_n_0      |                1 |              5 |         5.00 |
+|  USER_CLK_IBUF_BUFG | adim_lcd                 |                      |                2 |              5 |         2.50 |
+|  USER_CLK_IBUF_BUFG | lcd                      |                      |                4 |              7 |         1.75 |
+|  USER_CLK_IBUF_BUFG | FSM_onehot_i_reg_n_0_[2] |                      |                5 |             12 |         2.40 |
+|  USER_CLK_IBUF_BUFG |                          |                      |                7 |             13 |         1.86 |
+|  USER_CLK_IBUF_BUFG |                          | clock_1khz           |                4 |             16 |         4.00 |
+|  USER_CLK_IBUF_BUFG | D                        |                      |                2 |             16 |         8.00 |
+|  USER_CLK_IBUF_BUFG | butun_vector[15]_i_1_n_0 |                      |                6 |             16 |         2.67 |
+|  USER_CLK_IBUF_BUFG | counter5                 | counter5[15]_i_1_n_0 |                5 |             16 |         3.20 |
+|  USER_CLK_IBUF_BUFG | sayac[25]_i_2_n_0        | sayac[25]_i_1_n_0    |                7 |             25 |         3.57 |
+|  USER_CLK_IBUF_BUFG | counter3                 | counter4[26]_i_1_n_0 |                7 |             26 |         3.71 |
++---------------------+--------------------------+----------------------+------------------+----------------+--------------+
+
+

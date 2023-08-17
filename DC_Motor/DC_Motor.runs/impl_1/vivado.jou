@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Aug 17 13:31:55 2023
+# Process ID: 25632
+# Current directory: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/DCMotorEnkoder/DCMotorEnkoder.runs/impl_1
+# Command line: vivado.exe -log dc_motor_encoder.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source dc_motor_encoder.tcl -notrace
+# Log file: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/DCMotorEnkoder/DCMotorEnkoder.runs/impl_1/dc_motor_encoder.vdi
+# Journal file: D:/vivadoprojectsNEW/vivadoprojectslast/DDAPP/uygulama kodlar emranin hali/DCMotorEnkoder/DCMotorEnkoder.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source dc_motor_encoder.tcl -notrace
